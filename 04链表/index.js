@@ -1,10 +1,10 @@
 // 链表 无序存储数据
 // js 用 object 和 next 模拟 链表 linkedList
 
-const a = {val:'1'}
-const b = {val:'2'}
-const c = {val:'3'}
-const d = {val:'4'}
+const a = {val:'1', next:null}
+const b = {val:'2', next:null}
+const c = {val:'3', next:null}
+const d = {val:'4', next:null}
 
 // 用 next 定义 下一个节点
 a.next = b
