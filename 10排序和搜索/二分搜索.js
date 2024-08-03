@@ -1,4 +1,5 @@
 // 用于有序数组
+// 时间复杂度 O(logN)
 
 Array.prototype.binarySearch = function (item) {
 
