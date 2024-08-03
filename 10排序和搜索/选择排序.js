@@ -17,6 +17,9 @@ Array.prototype.selectionSort = function () {
             }
         }
         // 2、交换
+        // i 相当于第几个元素
+        // indexMin 是最小的元素索引
+        // 即每轮都是第几个和本轮最小的交换
         if(indexMin !== i) [this[i], this[indexMin]] = [this[indexMin], this[i]]
     }
 

@@ -11,10 +11,10 @@ Array.prototype.quickSort = function () {
 
         const left = [];
         const right = [];
-        const mid = arr[0];
+        const mid = arr[0];  // 以第一个元素为基准
 
         // 1、分区
-        for(let i = 1; i < arr.length; i++){
+        for(let i = 1; i < arr.length; i++){  // 从第二个元素开始
             if(arr[i] < mid){
                 left.push(arr[i]);
             }else{

@@ -16,6 +16,7 @@ Array.prototype.insertionSort = function () {
             } else {
                 break;
             }
+            // j 是动态变化的 在循环终止时 j 的值就是要插入的位置
             j -= 1;
         }
         // 将暂存值插入指定位置
