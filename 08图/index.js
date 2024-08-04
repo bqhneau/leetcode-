@@ -13,10 +13,10 @@ const graph = require('./graph');
 const visited = new Set();
 const dfs = (n) => {
     console.log(n);
-    visited.add(n);
+    visited.add(n);   // 访问过的节点存起来
     graph[n].forEach(element => {
         if(!visited.has(element)){
-            dfs(element)
+            dfs(element)  // 对没访问过的节点进行深度遍历
         }
     });
 }
