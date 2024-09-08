@@ -26,5 +26,5 @@ arr = [
     { name: '张三', age: 28 },
     { name: '李四', age: 30 },
 ];
-let mapRes = arr.map(item => item.age++)
+let mapRes = arr.map(item => item.age + item.name)
 console.log(arr, mapRes);
